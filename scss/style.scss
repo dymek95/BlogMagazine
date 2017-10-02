@@ -30,28 +30,28 @@ nav {
    grid-template-rows: 100%;
    height: $nav-line-height;
 }
-#hamburger {
+.hamburger {
     text-align: center;
     grid-column-start: 1;
     color: white;
     background-color:  #57CBC8;
     line-height: $nav-line-height;
 }
-#menu-list {
+.menu-list {
     grid-column-start: 2;
     @include horizontal-list;
     line-height: $nav-line-height;
     background: $nav-bck-color;
     color: $nav-text-color;
 }
-#menu-list li {
+.menu-list li {
     padding-right: 50px;
 }
-#menu-list > ul > li:last-of-type{
+.menu-list > ul > li:last-of-type{
     float: right;
     margin-right: 20px;
 }
-#social-icons {
+.social-icons {
     display: block;
     grid-column-start: 3;
     @include horizontal-list;
@@ -62,7 +62,7 @@ nav {
 }
 
 
-#person-icon {
+.person-icon {
     text-align: center;
     grid-column-start: 4;
     line-height: $nav-line-height;
@@ -72,7 +72,7 @@ nav {
 }
 
                 /* Scroll button */
-#scroll {
+.scroll {
     position: fixed;
     bottom: 20px;
     right: 70px;
@@ -87,14 +87,14 @@ nav {
     display: none;
     transition: 0.6s;
 }
-#scroll:hover{
+.scroll:hover{
     bottom: 40px;
 }
 
             /*main*/
 
      /* Left section */       
-#blog {
+.blog {
     max-width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -102,16 +102,16 @@ nav {
     margin-top: 30px;
     background: white;
 }
-#blog-info {
+.blog-info {
      display: grid;
     grid-template-rows: 70% 30%;
         grid-column: 1;
 }
-#menu {
+.menu {
     grid-column-start: 1;
     grid-row: 1;  
 };
-#menu ul {
+.menu ul {
     list-style: none;
     text-align: center;
     padding-left: 0;
@@ -135,14 +135,14 @@ nav {
          transition: 0.3s;
     }
 }
-#blog-contact {
+.blog-contact {
     grid-column-start: 1;
     grid-row: 2; 
     color: white;
     background: #C5CDD0;
     margin-top: 1px;
 }
-#blog-contact ul {
+.blog-contact ul {
     list-style: none;
     text-align: center;
     li {
@@ -155,13 +155,13 @@ nav {
       }
 }
 
-#category-blog {
+.category-blog {
     height: 100%;
     display: grid;
     grid-template-rows: 25% 25% 25% 25%;
     grid-column: 2;
 }
-#tech ul {
+.tech ul {
     list-style: none;
     li:first-of-type {
         padding-top: 10px;
@@ -172,7 +172,7 @@ nav {
        padding-bottom: 5px;
     }
 }
-#tech {
+.tech {
     grid-row: 1;
     background-color:  $category-blog-bg;
     color: white;
@@ -190,13 +190,13 @@ nav {
     background: $category-blog-color;
     text-align: center;
 }
-#entertainment {
+.entertainment {
     grid-row-start: 2;
     background-color:  #263A55;
     color: white;
    border-bottom: 1px solid #475D75;
 }
-#entertainment ul {
+.entertainment ul {
     list-style: none;
     li:first-of-type {
         padding-top: 10px;
@@ -207,13 +207,13 @@ nav {
      padding-bottom: 5px;
     }
 }
-#buisness{
+.buisness{
     grid-row-start: 3;
     background-color:  $category-blog-bg;
     color: white;
     border-bottom: 1px solid #475D75;
 }
-#buisness ul {
+.buisness ul {
     list-style: none;
     li:first-of-type {
         padding-top: 10px;
@@ -224,13 +224,13 @@ nav {
        padding-bottom: 5px;
     }
 }
-#lifestyle{
+.lifestyle{
     grid-row-start: 4;
     background-color:  $category-blog-bg;
     color: white;
    
 }
-#lifestyle ul {
+.lifestyle ul {
     list-style: none;
     li:first-of-type {
         padding-top: 10px;
@@ -243,7 +243,7 @@ nav {
 }
 
 /*right section */
-#social-media {
+.social-media {
      max-width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -251,7 +251,7 @@ nav {
     height: 700px;
     margin-top: 30px;
 }
-#social-media-names {
+.social-media-names {
     grid-column: 1;
     grid-row: 1/3;
     background: white;
@@ -292,7 +292,7 @@ nav {
     }
     }
 }
-#facebook-tile {
+.facebook-tile {
     grid-column: 2;
     grid-row: 1;
     background-color: #4D6BAB;
@@ -320,7 +320,7 @@ nav {
         font-size: 20px;
     }
 }
-#twitter-tile {
+.twitter-tile {
     grid-column: 2;
     grid-row: 2;
     background-color: #4EC6F8;
@@ -348,7 +348,7 @@ nav {
         font-size: 20px;
     }
 }
-#sign-in-smedia {
+.sign-in-smedia {
     margin-top: 30px;
     grid-column: 1/3;
     grid-row: 3;
@@ -392,7 +392,7 @@ nav {
         }
     }
 }
-#newsletter {
+.newsletter {
     margin-top: 30px;
     grid-column: 1/3;
     grid-row: 4;
@@ -428,7 +428,7 @@ nav {
 }
 
 /*carousel */
-#image-carousel {
+.image-carousel {
     margin-top: 30px;
     width: 100%;
     height: 500px;
@@ -465,14 +465,14 @@ nav {
 
 /* story */
 
-#video-panel  .col-lg-4 {
+.video-panel  .col-lg-4 {
     padding-right: 0;
 }
-#video-panel  .col-lg-8 {
+.video-panel  .col-lg-8 {
     padding-left: 0;
 }
 
-#story{
+.story{
     margin-top: 30px;
     background-color: white;
     height: 300px;
@@ -487,7 +487,7 @@ nav {
         line-height: 35px;
         text-align: center;
     }
-    #text-story{
+    .text-story{
         position: absolute;
         left: 50px;
         top: 50px;
@@ -511,7 +511,7 @@ nav {
         }
     }
 }
-#taxi-img {
+.taxi-img {
     margin-top: 30px;
     background-image: url(../images/taxi.jpg);
     background-position: center;
